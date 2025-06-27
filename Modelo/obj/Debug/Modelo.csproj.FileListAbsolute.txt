@@ -1,0 +1,18 @@
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\bin\Debug\Modelo.dll
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\obj\Debug\Modelo.csproj.Up2Date
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\obj\Debug\Modelo.dll
+C:\Users\Estudiante\source\repos\Sistema de Administracion de Doctores\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\bin\Debug\Modelo.dll
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\obj\Debug\Modelo.csproj.Up2Date
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\obj\Debug\Modelo.dll
+C:\Users\Estudiante\Downloads\Proyecto-Base-Clase-Sistema-Doctores-master\Proyecto-Base-Clase-Sistema-Doctores-master\Modelo\obj\Debug\Modelo.pdb

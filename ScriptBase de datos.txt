@@ -1,0 +1,54 @@
+-- Crear la base de datos
+CREATE DATABASE dbHospi;
+GO
+ 
+-- Usar la base de datos
+USE dbHospi;
+GO
+ 
+-- Tabla doctores
+CREATE TABLE doctores (
+    id_doctor INT PRIMARY KEY IDENTITY(1,1),
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    especialidad VARCHAR(50) NOT NULL,
+    cargo VARCHAR(50) NOT NULL
+);
+GO
+ 
+-- Tabla pacientes
+CREATE TABLE pacientes (
+    id_paciente INT PRIMARY KEY IDENTITY(1,1),
+    num_isss VARCHAR(20) NOT NULL UNIQUE,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    domicilio VARCHAR(150) NOT NULL,
+    telefono VARCHAR(15) NOT NULL,
+    sexo CHAR(1) NOT NULL,
+    costo_tratamiento DECIMAL(10,2) NOT NULL DEFAULT 0.00
+);
+GO
+ 
+-- Tabla ingresos (sin DEFAULT en fecha_ingreso)
+CREATE TABLE ingresos (
+    id_ingreso INT PRIMARY KEY IDENTITY(1,1),
+    id_paciente INT NOT NULL,
+    fecha_ingreso DATETIME NOT NULL, -- ahora es obligatorio ingresarla manualmente
+    id_doctor INT NOT NULL,
+    diagnostico TEXT NOT NULL,
+    CONSTRAINT fk_ingresos_pacientes FOREIGN KEY (id_paciente) REFERENCES pacientes(id_paciente),
+    CONSTRAINT fk_ingresos_doctores FOREIGN KEY (id_doctor) REFERENCES doctores(id_doctor)
+);
+GO
+ 
+-- Insertar datos iniciales en doctores
+INSERT INTO doctores (nombre, apellido, especialidad, cargo)
+VALUES 
+('juan carlos', 'mendoza', 'cardiología', 'jefe de cardiología'),
+('maría teresa', 'ramírez', 'pediatría', 'pediatra senior'),
+('roberto antonio', 'hernández', 'neurología', 'neurólogo'),
+('laura patricia', 'sánchez', 'ginecología', 'ginecóloga'),
+('carlos eduardo', 'lópez', 'traumatología', 'cirujano ortopédico'),
+('ana isabel', 'rodríguez', 'dermatología', 'dermatóloga'),
+('josé manuel', 'pérez', 'oftalmología', 'oftalmólogo');
+GO
